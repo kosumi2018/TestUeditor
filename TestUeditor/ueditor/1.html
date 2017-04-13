@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>外部调用UEditor的多图上传和附件上传</title>
+    <script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="ueditor.all.js"></script>
+    <style>
+            ul{display: inline-block;width: 100%;margin: 0;padding: 0;}
+            li{list-style-type: none;margin: 5px;padding: 0;}
+        </style>
+</head>
+<body>
+<h1>外部调用UEditor的多图上传和附件上传示例</h1>
+
+<button type="button" id="j_upload_img_btn">多图上传</button>
+<ul id="upload_img_wrap"></ul>
+
+<button type="button" id="j_upload_file_btn">附件上传</button>
+<ul id="upload_file_wrap"></ul>
+
+<!-- 加载编辑器的容器 -->
+<textarea id="uploadEditor" style="display: none;"></textarea>
+
+<!-- 使用ue -->
+<script type="text/javascript">
+
+    // 实例化编辑器，这里注意配置项隐藏编辑器并禁用默认的基础功能。
+ var uploadEditor = UE.getEditor("uploadEditor", {
+        isShow: false,
+        focus: false,
+        enableAutoSave: false,
+        autoSyncData: false,
+        autoFloatEnabled:false,
+        wordCount: false,
+        sourceEditor: null,
+        scaleEnabled:true,
+        toolbars: [["insertimage", "attachment"]]
+    });
+
+    // todo::some code
+
+</script>
+</body>
+</html>

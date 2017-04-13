@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUeditor", "TestUeditor\TestUeditor.csproj", "{905A8ED7-2D0A-43A6-9157-92937D354A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ueditor", "Ueditor\Ueditor.csproj", "{A31495AB-6645-41CA-B75A-2F0F8886F175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905A8ED7-2D0A-43A6-9157-92937D354A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905A8ED7-2D0A-43A6-9157-92937D354A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905A8ED7-2D0A-43A6-9157-92937D354A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905A8ED7-2D0A-43A6-9157-92937D354A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31495AB-6645-41CA-B75A-2F0F8886F175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31495AB-6645-41CA-B75A-2F0F8886F175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31495AB-6645-41CA-B75A-2F0F8886F175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31495AB-6645-41CA-B75A-2F0F8886F175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
